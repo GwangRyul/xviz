@@ -1,0 +1,60 @@
+{
+  "topicConfig": [
+    {
+      "topic": "/tf_static",
+      "type": "tf2_msgs/TFMessage"
+    },
+    {
+      "topic": "/tf",
+      "type": "tf2_msgs/TFMessage"
+    },
+    {
+      "topic": "/kitti/oxts/imu",
+      "type": "sensor_msgs/Imu"
+    },
+    {
+      "topic": "/kitti/oxts/gps/fix",
+      "type": "sensor_msgs/NavSatFix"
+    },
+    {
+      "topic": "/kitti/oxts/gps/vel",
+      "type": "geometry_msgs/TwistStamped"
+    },
+    {
+      "topic": "/kitti/camera_gray_left/image_raw",
+      "type": "sensor_msgs/Image"
+    },
+    {
+      "topic": "/kitti/camera_gray_left/camera_info",
+      "type": "sensor_msgs/CameraInfo"
+    },
+    {
+      "topic": "/kitti/camera_gray_right/image_raw",
+      "type": "sensor_msgs/Image"
+    },
+    {
+      "topic": "/kitti/camera_gray_right/camera_info",
+      "type": "sensor_msgs/CameraInfo"
+    },
+    {
+      "topic": "/kitti/camera_color_left/image_raw",
+      "type": "sensor_msgs/Image"
+    },
+    {
+      "topic": "/kitti/camera_color_left/camera_info",
+      "type": "sensor_msgs/CameraInfo"
+    },
+    {
+      "topic": "/kitti/camera_color_right/image_raw",
+      "type": "sensor_msgs/Image"
+    },
+    {
+      "topic": "/kitti/camera_color_right/camera_info",
+      "type": "sensor_msgs/CameraInfo"
+    },
+    {
+      "topic": "/kitti/velo/pointcloud",
+      "type": "sensor_msgs/PointCloud2"
+    }
+  ]
+}
